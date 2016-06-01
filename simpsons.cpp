@@ -21,7 +21,7 @@ int main()
 
     while(t==2)
     {
-    float seasonNum = randinter(1,20);
+    float seasonNum = randinter(1,27);
     float episodeNum = episodeGen(seasonNum);
     print(seasonNum, episodeNum);
     t=check();
